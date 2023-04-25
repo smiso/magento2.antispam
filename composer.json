@@ -1,5 +1,5 @@
 {
-    "name": "smiso/module-antispam",
+    "name": "smiso/magento2-antispam",
     "description": "Block spam request by checking on create post fields firstname and lastname against spam values like https and so on.",
     "version": "1.0.0",
     "type": "magento2-module",
