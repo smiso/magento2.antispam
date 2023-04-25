@@ -1,19 +1,19 @@
 {
-    "name": "smilesolutions/module-antispam",
+    "name": "smiso/module-antispam",
     "description": "Block spam request by checking on create post fields firstname and lastname against spam values like https and so on.",
     "version": "1.0.0",
     "type": "magento2-module",
-    "license": "GPL-3.0",
+    "license": [ "OSL-3.0" ],
     "authors": [
         {
-            "name": "SmileSolutions",
-            "email": "info@smilesolutions.ch"
+            "name": "smile solutions gmbh",
+            "email": "info@smilesolutions.ch",
+            "homepage": "https://smilesolutions.ch"
         }
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": "~5.5.0|~5.6.0|~7.0.0",
-        "magento/framework": "~100.0.4"
+        "magento/framework": "*"
     },
     "autoload": {
         "files": [
